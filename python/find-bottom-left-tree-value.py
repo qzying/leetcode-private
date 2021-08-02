@@ -1,23 +1,32 @@
 r"""
-给你一个二叉树，请你返回其按`层序遍历`得到的节点值（即逐层地，从左到右访问所有节点）。
+给定一个二叉树的根节点root，请找出该二叉树的最底层最左边节点的值。
+假设二叉树中至少有一个节点。
 
-示例：
+示例 1:
 
-二叉树：[3,9,20,null,null,15,7],
+     2
+    / \
+   1   3
 
-    3
-   / \
-  9  20
-    /  \
-   15   7
+输入: root = [2,1,3]
+输出: 1
 
-返回其层序遍历结果：
+示例 2:
 
-[
-  [3],
-  [9,20],
-  [15,7]
-]
+       1
+      / \
+     2   3
+    /   / \
+   4   5   6
+      /
+     7
+
+输入: [1,2,3,4,null,5,6,null,null,7]
+输出: 7
+ 
+提示:
+(1) 二叉树的节点个数的范围是 [1,104]
+(2) -231 <= Node.val <= 231 - 1
 """
 
 # Definition for a binary tree node.
@@ -29,7 +38,7 @@ class TreeNode:
 
 
 class Solution:
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+    def findBottomLeftValue(self, root: TreeNode) -> int:
         if not root:
             return []
         res, one, two = [], [], []
@@ -43,7 +52,7 @@ class Solution:
                 if x.right:
                     two.append(x.right)
             if tmp:
-                res.append(tmp)
+                res = tmp
                 tmp = []
                 one = []
             for x in two:
@@ -53,7 +62,7 @@ class Solution:
                 if x.right:
                     one.append(x.right)
             if tmp:
-                res.append(tmp)
+                res = tmp
                 tmp = []
                 two = []
-        return res
+        return res[0]

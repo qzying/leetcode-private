@@ -1,23 +1,30 @@
 r"""
-给你一个二叉树，请你返回其按`层序遍历`得到的节点值（即逐层地，从左到右访问所有节点）。
+给定一个二叉树的根节点root，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。
 
-示例：
+示例 1:
 
-二叉树：[3,9,20,null,null,15,7],
+      1            <---
+    /   \
+   2     3         <---
+    \     \
+     5     4       <---
 
-    3
-   / \
-  9  20
-    /  \
-   15   7
+输入: [1,2,3,null,5,null,4]
+输出: [1,3,4]
 
-返回其层序遍历结果：
+示例 2:
 
-[
-  [3],
-  [9,20],
-  [15,7]
-]
+输入: [1,null,3]
+输出: [1,3]
+
+示例 3:
+
+输入: []
+输出: []
+
+提示:
+(1) 二叉树的节点个数的范围是 [0,100]
+(2) -100 <= Node.val <= 100 
 """
 
 # Definition for a binary tree node.
@@ -29,7 +36,7 @@ class TreeNode:
 
 
 class Solution:
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+    def rightSideView(self, root: TreeNode) -> List[int]:
         if not root:
             return []
         res, one, two = [], [], []
@@ -43,7 +50,7 @@ class Solution:
                 if x.right:
                     two.append(x.right)
             if tmp:
-                res.append(tmp)
+                res.append(tmp[-1])
                 tmp = []
                 one = []
             for x in two:
@@ -53,7 +60,7 @@ class Solution:
                 if x.right:
                     one.append(x.right)
             if tmp:
-                res.append(tmp)
+                res.append(tmp[-1])
                 tmp = []
                 two = []
         return res

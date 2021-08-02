@@ -1,23 +1,27 @@
 r"""
-给你一个二叉树，请你返回其按`层序遍历`得到的节点值（即逐层地，从左到右访问所有节点）。
+给你一棵二叉树的根节点root，请你返回层数最深的叶子节点的和。
 
-示例：
+示例 1：
 
-二叉树：[3,9,20,null,null,15,7],
+        1
+       / \
+      2   3
+     /  \   \
+    4    5   6
+   /          \
+  7            8
 
-    3
-   / \
-  9  20
-    /  \
-   15   7
+输入：root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
+输出：15
 
-返回其层序遍历结果：
+示例 2：
 
-[
-  [3],
-  [9,20],
-  [15,7]
-]
+输入：root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]
+输出：19
+ 
+提示：
+(1) 树中节点数目在范围 [1, 104] 之间。
+(2) 1 <= Node.val <= 100
 """
 
 # Definition for a binary tree node.
@@ -29,7 +33,7 @@ class TreeNode:
 
 
 class Solution:
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+    def deepestLeavesSum(self, root: TreeNode) -> int:
         if not root:
             return []
         res, one, two = [], [], []
@@ -43,7 +47,7 @@ class Solution:
                 if x.right:
                     two.append(x.right)
             if tmp:
-                res.append(tmp)
+                res = tmp
                 tmp = []
                 one = []
             for x in two:
@@ -53,7 +57,7 @@ class Solution:
                 if x.right:
                     one.append(x.right)
             if tmp:
-                res.append(tmp)
+                res = tmp
                 tmp = []
                 two = []
-        return res
+        return sum(res)

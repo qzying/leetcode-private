@@ -1,9 +1,9 @@
 r"""
-给你一个二叉树，请你返回其按`层序遍历`得到的节点值（即逐层地，从左到右访问所有节点）。
+给定一个非空二叉树, 返回一个由每层节点平均值组成的数组。
 
-示例：
+示例 1：
 
-二叉树：[3,9,20,null,null,15,7],
+输入：
 
     3
    / \
@@ -11,13 +11,11 @@ r"""
     /  \
    15   7
 
-返回其层序遍历结果：
+输出：[3, 14.5, 11]
 
-[
-  [3],
-  [9,20],
-  [15,7]
-]
+解释：第0层的平均值是3,  第1层是14.5, 第2层是11。因此返回[3, 14.5, 11]。
+
+提示：节点值的范围在32位有符号整数范围内。
 """
 
 # Definition for a binary tree node.
@@ -29,7 +27,7 @@ class TreeNode:
 
 
 class Solution:
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+    def averageOfLevels(self, root: TreeNode) -> List[float]:
         if not root:
             return []
         res, one, two = [], [], []
@@ -43,7 +41,7 @@ class Solution:
                 if x.right:
                     two.append(x.right)
             if tmp:
-                res.append(tmp)
+                res.append(sum(tmp) / len(tmp))
                 tmp = []
                 one = []
             for x in two:
@@ -53,7 +51,7 @@ class Solution:
                 if x.right:
                     one.append(x.right)
             if tmp:
-                res.append(tmp)
+                res.append(sum(tmp) / len(tmp))
                 tmp = []
                 two = []
         return res
