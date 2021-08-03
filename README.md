@@ -11,8 +11,10 @@
 |513|[找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)|[Python](./python/find-bottom-left-tree-value.py)|中等|
 |487|[最大连续1的个数II](https://leetcode-cn.com/problems/max-consecutive-ones-ii/)🔒|[Python](./python/max-consecutive-ones-ii.py)|中等|
 |485|[最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/)|[Python](./python/max-consecutive-ones.py)|简单|
+|354|[俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)|[Python](./python/russian-doll-envelopes.py)|困难|
 |322|[零钱兑换](https://leetcode-cn.com/problems/coin-change/)|[Python](./python/coin-change.py)|中等|
 |309|[最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python](./python/best-time-to-buy-and-sell-stock-with-cooldown.py)|中等|
+|300|[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Python](./python/longest-increasing-subsequence.py)|中等|
 |199|[二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|[Python](./python/binary-tree-right-side-view.py)|中等|
 |188|[买卖股票的最佳时机IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Python](./python/best-time-to-buy-and-sell-stock-iv.py)|困难|
 |123|[买卖股票的最佳时机III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)|[Python](./python/best-time-to-buy-and-sell-stock-iii.py)|困难|
