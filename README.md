@@ -24,6 +24,8 @@
 |322|[零钱兑换](https://leetcode-cn.com/problems/coin-change/)|[Python](./python/coin-change.py)|中等|
 |309|[最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python](./python/best-time-to-buy-and-sell-stock-with-cooldown.py)|中等|
 |300|[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Python](./python/longest-increasing-subsequence.py)|中等|
+|236|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Python](./python/lowest-common-ancestor-of-a-binary-tree.py)|中等|
+|235|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Python](./python/lowest-common-ancestor-of-a-binary-search-tree.py)|简单|
 |215|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|[Python](./python/kth-largest-element-in-an-array.py)|中等|
 |199|[二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|[Python](./python/binary-tree-right-side-view.py)|中等|
 |188|[买卖股票的最佳时机IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Python](./python/best-time-to-buy-and-sell-stock-iv.py)|困难|
