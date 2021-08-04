@@ -46,6 +46,7 @@
 |69|[x的平方根](https://leetcode-cn.com/problems/sqrtx/)|[Python](./python/sqrtx.py)|简单|
 |57|[插入区间](https://leetcode-cn.com/problems/insert-interval/)|[Python](./python/insert-interval.py)|中等|
 |56|[合并区间](https://leetcode-cn.com/problems/merge-intervals/)|[Python](./python/merge-intervals.py)|中等|
+|43|[字符串相乘](https://leetcode-cn.com/problems/multiply-strings/)|[Python](./python/multiply-strings.py)|中等|
 |42|[接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)|[Python](./python/trapping-rain-water.py)|困难|
 |34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python](./python/find-first-and-last-position-of-element-in-sorted-array.py)|中等|
 |33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[Python](./python/search-in-rotated-sorted-array.py)|中等|
