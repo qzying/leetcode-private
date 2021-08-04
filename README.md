@@ -27,8 +27,11 @@
 |215|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|[Python](./python/kth-largest-element-in-an-array.py)|中等|
 |199|[二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|[Python](./python/binary-tree-right-side-view.py)|中等|
 |188|[买卖股票的最佳时机IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Python](./python/best-time-to-buy-and-sell-stock-iv.py)|困难|
+|160|[相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)|[Python](./python/intersection-of-two-linked-lists.py)|简单|
 |154|[寻找旋转排序数组中的最小值II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Python](./python/find-minimum-in-rotated-sorted-array-ii.py)|困难|
 |153|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|[Python](./python/find-minimum-in-rotated-sorted-array.py)|中等|
+|142|[环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)|[Python](./python/linked-list-cycle-ii.py)|中等|
+|141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|[Python](./python/linked-list-cycle.py)|简单|
 |123|[买卖股票的最佳时机III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)|[Python](./python/best-time-to-buy-and-sell-stock-iii.py)|困难|
 |122|[买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Python](./python/best-time-to-buy-and-sell-stock-ii.py)|简单|
 |121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./python/best-time-to-buy-and-sell-stock.py)|简单|
@@ -41,5 +44,7 @@
 |69|[x的平方根](https://leetcode-cn.com/problems/sqrtx/)|[Python](./python/sqrtx.py)|简单|
 |57|[插入区间](https://leetcode-cn.com/problems/insert-interval/)|[Python](./python/insert-interval.py)|中等|
 |56|[合并区间](https://leetcode-cn.com/problems/merge-intervals/)|[Python](./python/merge-intervals.py)|中等|
+|42|[接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)|[Python](./python/trapping-rain-water.py)|困难|
 |34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python](./python/find-first-and-last-position-of-element-in-sorted-array.py)|中等|
 |33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[Python](./python/search-in-rotated-sorted-array.py)|中等|
+|11|[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|[Python](./python/container-with-most-water.py)|中等|
