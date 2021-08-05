@@ -10,6 +10,7 @@
 |714|[买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Python](./python/best-time-to-buy-and-sell-stock-with-transaction-fee.py)|中等|
 |704|[二分查找](https://leetcode-cn.com/problems/binary-search/)|[Python](./python/binary-search.py)|简单|
 |673|[最长递增子序列的个数](https://leetcode-cn.com/problems/number-of-longest-increasing-subsequence/)|[Python](./python/number-of-longest-increasing-subsequence.py)|中等|
+|654|[最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree/)|[Python](./python/maximum-binary-tree.py)|中等|
 |637|[二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)|[Python](./python/average-of-levels-in-binary-tree.py)|简单|
 |518|[零钱兑换II](https://leetcode-cn.com/problems/coin-change-2/)|[Python](./python/coin-change-2.py)|中等|
 |516|[最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/)|[Python](./python/longest-palindromic-subsequence.py)|中等|
@@ -27,6 +28,7 @@
 |300|[最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)|[Python](./python/longest-increasing-subsequence.py)|中等|
 |236|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Python](./python/lowest-common-ancestor-of-a-binary-tree.py)|中等|
 |235|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Python](./python/lowest-common-ancestor-of-a-binary-search-tree.py)|简单|
+|226|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)|[Python](./python/invert-binary-tree.py)|简单|
 |215|[数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)|[Python](./python/kth-largest-element-in-an-array.py)|中等|
 |199|[二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)|[Python](./python/binary-tree-right-side-view.py)|中等|
 |188|[买卖股票的最佳时机IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)|[Python](./python/best-time-to-buy-and-sell-stock-iv.py)|困难|
@@ -38,7 +40,12 @@
 |123|[买卖股票的最佳时机III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)|[Python](./python/best-time-to-buy-and-sell-stock-iii.py)|困难|
 |122|[买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Python](./python/best-time-to-buy-and-sell-stock-ii.py)|简单|
 |121|[买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)|[Python](./python/best-time-to-buy-and-sell-stock.py)|简单|
+|117|[填充每个节点的下一个右侧节点指针II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Python](./python/populating-next-right-pointers-in-each-node-ii.py)|中等|
+|116|[填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)|[Python](./python/populating-next-right-pointers-in-each-node.py)|中等|
+|114|[二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)|[Python](./python/flatten-binary-tree-to-linked-list.py)|中等|
 |107|[二叉树的层序遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)|[Python](./python/binary-tree-level-order-traversal-ii.py)|中等|
+|106|[从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Python](./python/construct-binary-tree-from-inorder-and-postorder-traversal.py)|中等|
+|105|[从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Python](./python/construct-binary-tree-from-preorder-and-inorder-traversal.py)|中等|
 |103|[二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)|[Python](./python/binary-tree-zigzag-level-order-traversal.py)|中等|
 |102|[二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)|[Python](./python/binary-tree-level-order-traversal.py)|中等|
 |81|[搜索旋转排序数组II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)|[Python](./python/search-in-rotated-sorted-array-ii.py)|中等|
