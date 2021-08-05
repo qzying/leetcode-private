@@ -19,6 +19,7 @@
 |485|[最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/)|[Python](./python/max-consecutive-ones.py)|简单|
 |452|[用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Python](./python/minimum-number-of-arrows-to-burst-balloons.py)|中等|
 |435|[无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)|[Python](./python/non-overlapping-intervals.py)|中等|
+|410|[分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)|[Python](./python/split-array-largest-sum.py)|困难|
 |378|[有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python](./python/kth-smallest-element-in-a-sorted-matrix.py)|中等|
 |354|[俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)|[Python](./python/russian-doll-envelopes.py)|困难|
 |322|[零钱兑换](https://leetcode-cn.com/problems/coin-change/)|[Python](./python/coin-change.py)|中等|
