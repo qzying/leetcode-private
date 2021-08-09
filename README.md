@@ -66,3 +66,4 @@
 |34|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python](./python/find-first-and-last-position-of-element-in-sorted-array.py)|中等|
 |33|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)|[Python](./python/search-in-rotated-sorted-array.py)|中等|
 |11|[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|[Python](./python/container-with-most-water.py)|中等|
+|3|[无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)|[Python](./python/longest-substring-without-repeating-characters.py)|中等|
